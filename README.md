@@ -4,8 +4,8 @@ by Cai Guo, Xinnan Chen, Yanhua Chen, Chuying Yu.
 ## Dependencies
 python
 ```
-conda create -n vdn python=3.8
-conda activate vdn
+conda create -n msan python=3.8
+conda activate msan
 ```
 pytorch
 ```
