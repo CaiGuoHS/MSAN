@@ -13,6 +13,12 @@ conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10
 ```
 
 ## Testing
+Please enter the ckpts folder and execute the following unzip command.
+```
+cat MSAN.zip.* > MSAN.zip
+unzip MSAN.zip
+```
+
 Please copy test samples into './test_samples'. Then running the following command.
 ```
 python test.py
