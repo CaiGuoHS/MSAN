@@ -13,7 +13,7 @@ conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10
 ```
 
 ## Testing
-Please enter the ckpts folder and then execute the following unzip command.
+Please enter the ckpts folder and then execute the following unzip command to obtain the MSAN.pth file.
 ```
 cat MSAN.zip.* > MSAN.zip
 unzip MSAN.zip
