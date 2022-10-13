@@ -23,3 +23,19 @@ Please copy test samples into './test_samples'. Then running the following comma
 ```
 python test.py
 ```
+
+## Citation
+If you think this work is useful for your research, please cite the following paper.
+
+```
+@article{guo2022multi,
+  title={Multi-Stage Attentive Network for Motion Deblurring via Binary Cross-Entropy Loss},
+  author={Guo, Cai and Chen, Xinan and Chen, Yanhua and Yu, Chuying},
+  journal={Entropy},
+  volume={24},
+  number={10},
+  pages={1414},
+  year={2022},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
