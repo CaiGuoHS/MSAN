@@ -36,6 +36,7 @@ If you think this work is useful for your research, please cite the following pa
   number={10},
   pages={1414},
   year={2022},
-  publisher={Multidisciplinary Digital Publishing Institute}
+  publisher={Multidisciplinary Digital Publishing Institute},
+  doi = {https://doi.org/10.3390/e24101414}
 }
 ```
