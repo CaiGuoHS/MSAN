@@ -4,7 +4,6 @@ import torch
 import torchvision
 import torch.nn.functional as F
 from PIL import Image
-from torch.autograd import Variable
 from torchvision import transforms
 from models import model
 
@@ -29,7 +28,7 @@ def main():
     for images_name in os.listdir(TEST_SAMPLES):
         with torch.no_grad():
             input_image = transforms.ToTensor()(Image.open(TEST_SAMPLES + '/' + images_name).convert('RGB'))
-            input_image = Variable(input_image-0.5).unsqueeze(0).to(device)
+            input_image = (input_image-0.5).unsqueeze(0).to(device)
 
             factor = 8
             h, w = input_image.shape[2], input_image.shape[3]
